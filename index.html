@@ -1,91 +1,64 @@
 <html>
-+<head>
-+<title>Bhawesh Shah- Personal Portfolio</title>
-+<meta charset="UTF-8">
-+<style>
-+  p, h1, a {
-+    color:white;
-+    text-align:center;
-+    font-family:Helvetica, arial;
-+  }
-+  .marquee
-+  {
-+    -webkit-marquee: auto medium infinite scroll normal;   
-+  }
-+  #section1 {
-+    float:left;
-+  }
-+  #section2 {
-+    float:right;
-+  }
-+  #social-wrap {
-+    margin-left:20%;
-+    margin-right:20%;
-+  }
-+  #attribution {
-+    position:absolute;
-+    font-family:Helvetica;
-+    font-weight:200;
-+    text-transform:lowercase;
-+  }
-+  h1 {
-+    font-size:18px;
-+    font-weight:260;
-+  }
-+  .linky {
-+    text-align:center;
-+  }
-+</style>
-+</head>
- <body background="http://cool-backgrounds.org/wallpapers/v2_y_background-2560x1600.jpg">
--<title><p><u<b>Bhavesh Shah</b></u></p></title>
- <br>
- <br>
--<center> <font color="white">Hi! Welcome to my first Github website. This website runs on HTML, DHTML, and Java Script. I hope you enjoy this website.</font></center> 
-+<h1>Hi! Welcome to my first Github website. This website runs on HTML. I hope you enjoy this website.</h1>
- <br>
- <br>
--<center><font color="white">Thanks, Bhavesh Shah (software engineer at Stuyvesant High School).</font></center>
-+<p>Thanks, Bhavesh Shah (software engineer at Stuyvesant High School).</p>
- <br>
- <br>
--<marquee><font color="white">:)</font></marquee>
-+<p class="marquee">:)</p>
- <br>
- <br>
--<marquee><font color="white">(:</font></marquee>
-+<p class="marquee">(:</p>
- <br>
- <br>
--<center><font color="white">The movement of the smiley-faces above is a code that incorporates HTML. I will be updating this website soon.</font></center>
-+<p>The movement of the smiley-faces above is a code that incorporates HTML. I will be updating this website soon.</p>
- <br>
- <br>
--<center><a href="resume.html">Resume</a></center>
-+<a href="resume.html" class="linky">Resume</a>
- <br>
- <br>
- <br>
- <br>
--<center><p><b><font color="white">My Projects:</font></b></p>
--<a href="tomJerry.html">Catch Jerry!</a></center>
-+<p><b>My Projects:</b></p>
-+<a href="tomJerry.html" class="linky">Catch Jerry!</a></center>
- <br>
- <br>
- <br>
- <br>
--<center>
--<a href="http://facebook.com"><img src="http://3.bp.blogspot.com/-ZEMBg7Sl--4/U8K3mJW2MPI/AAAAAAAAAYg/I6NRd4-wmIM/s1600/facebook-logo-png-white-5117.png"width="75"height="75"></a>
--<a href="https://github.com/bhavrish"><img src="http://www.beyondthecube.ca/images/github-logo.png?1370892103"width="100"height="100"></a>
--</center>
-+<div id="social-wrap" style="height:200px;">
-+<div id="section1">
-+<a href="http://facebook.com" style="text-align:center;"><img src="http://3.bp.blogspot.com/-ZEMBg7Sl--4/U8K3mJW2MPI/AAAAAAAAAYg/I6NRd4-wmIM/s1600/facebook-logo-png-white-5117.png"width="75"height="75"></a>
-+</div>
-+<div id="section2">
-+<a href="https://github.com/bhavrish" style="text-align:center;"><img src="http://www.beyondthecube.ca/images/github-logo.png?1370892103"width="100"height="100"></a>
-+</div>
-+</div>
-+    <div id="attribution"><a style="color:white; padding:10px; background-color:rgba(0,0,0,0.6); margin-left:40%; text-decoration:none; float:right;" href="http://jonw27.github.io">Help from Jonathan Wong</a></div>
- </html>
+<head>
+  <title>Bhawesh</title>
+  <style>
+    font {
+      font-family:Arial, Helvetica, sans-serif;
+      font-weight:250;
+    }
+    body {
+      opacity:0.4;
+    }
+    p, a {
+      opacity:0.9;
+      font-weight:250;
+    }
+    #left {
+      float:left;
+      margin-left:525px;
+    }
+    #right {
+      float:right;
+      margin-right:525px;
+    }
+  </style>
+</head>
+<body background="http://cool-backgrounds.org/wallpapers/v2_y_background-2560x1600.jpg">
+<center><h1><font color="white">Bhavesh Shah</font></h1></center>
+<br>
+<br>
+<center><font color="white">Hi! Welcome to my first Github website. This website runs on HTML, DHTML, and Java Script. I hope you enjoy this website.</font></center> 
+<br>
+<br>
+<center><font color="white">Thanks, Bhavesh Shah (software engineer at Stuyvesant High School).</font></center>
+<br>
+<br>
+<marquee><font color="white">:)</font></marquee>
+<br>
+<br>
+<marquee><font color="white">(:</font></marquee>
+<br>
+<br>
+<center><font color="white">The movement of the smiley-faces above is a code that incorporates HTML. I will be updating this website soon.</font></center>
+<br>
+<br>
+<center><a href="resume.html">Resume</a></center>
+<br>
+<br>
+<br>
+<br>
+<center><p><b><font color="white">My Projects:</font></b></p>
+<a href="tomJerry.html">Catch Jerry!</a></center>
+<br>
+<br>
+<br>
+<br>
+<center>
+<div id="left"><a href="http://facebook.com"><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/F_icon.svg/2000px-F_icon.svg.png"width="75"height="75"></a></div>
+<div id="right"><a href="https://github.com/bhavrish"><img src="http://www.beyondthecube.ca/images/github-logo.png?1370892103"width="100"height="100"></a></div>
+</center>
+<br>
+<br>
+<center><font color="white" style="text-align:center;">&copy;Bhavesh Shah</font></center>
+</body>
+</html>
