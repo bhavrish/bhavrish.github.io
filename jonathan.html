@@ -6,23 +6,56 @@
 body {
   background:rgba(30,230,0,0.8);
   background-size:cover;
+  -webkit-animation: fadein 4s; /* Safari and Chrome */
+  -moz-animation: fadein 4s; /* Firefox */
+  -ms-animation: fadein 4s; /* Internet Explorer */
+  -o-animation: fadein 4s; /* Opera */
+  animation: fadein 4s;
 }
+@keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        /* Firefox */
+@-moz-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        /* Safari and Chrome */
+@-webkit-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }
+
+        /* Internet Explorer */
+@-ms-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }​
+
+        /* Opera */
+@-o-keyframes fadein {
+            from { opacity: 0; }
+            to   { opacity: 1; }
+        }​
 </style>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script>
-function yoBhavesh() {
-  $("body").fadeIn("slow");
-}
+//function yoBhavesh() {
+//  $("#container").fadeIn("slow");
+//}
 </script>
 <meta charset="UTF-8">
 <!--Stylesheets-->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 
 </head>
-<body onload="yoBhavesh()">
+<body onload="yoBhavesh()" id="container">
 <div class="container">
 <h1>The Jonathan Project <small>&copy; Jonathan Wong</small></h1>
-<h6>THe Jonathan Project is a project by Jonathan Wong attempting to shame Bhavesh into making his website better. I hope it is working.</h6>
+<h6>The Jonathan Project is a project by Jonathan Wong attempting to shame Bhavesh into making his website better. I hope it is working.</h6>
 </div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
