@@ -56,6 +56,37 @@ body {
 <div class="container">
 <h1>The Jonathan Project <small>&copy; Jonathan Wong</small></h1>
 <h6>The Jonathan Project is a project by Jonathan Wong attempting to shame Bhavesh into making his website better. I hope it is working.</h6>
+___
+##Navigation
+<a href="#Manifesto">Manifesto</a>
+<a href="#Help">Help</a>
+<a href="#CSS">CSS</a>
+<a href="#MyProjects">My Projects</a>
+<a href="#Aboutme">About Me</a>
+
+<div id="Manifesto">
+###Manifesto
+  <h6>Help Bhavesh. Period.</h6>
+</div>
+<div id="Help">
+###Help
+  <h6>How to help is simple. Create tutorials to force him to learn.</h6>
+</div>
+<div id="CSS">
+###CSS
+  <h6>This will become an extensive CSS tutorial.</h6>
+</div>
+<div id="MyProjects">
+###My Projects
+  <h6>I've created mostly websites, but I've developed a simple applescript application.</h6>
+</div>
+<div id="AboutMe">
+###About Me
+  <h6>Time to link. <a href="http://jonw27.github.io/scratch">My unofficial port.</a></h6>
+</div>
+<div id="footer">
+<footer>&copy; Jonathan Wong 2015</footer>  
+</div>
 </div>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 </body>
