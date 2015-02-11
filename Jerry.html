@@ -34,18 +34,18 @@ THE SOFTWARE.
       }
       @-webkit-keyframes flickerAnimation{
       0%   { opacity:1; }
-      50%  { opacity:0.5; }
+      50%  { opacity:1; }
       100% { opacity:0; }
       }
       .animate-flicker {
-        -webkit-animation: flickerAnimation 5s;
+        -webkit-animation: flickerAnimation 10s;
         animation: flickerAnimation 5s;
       }
     }
   </style>
 </head>
 <body background="http://images1.fanpop.com/images/photos/2500000/Tom-and-Jerry-Wallpaper-tom-and-jerry-2507494-1600-1200.jpg">
-<div id="flickerAnimation">
+<div class="animate-flicker">
   <p>Level 1</p>
 </div>
 <br>
