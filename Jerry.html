@@ -28,9 +28,39 @@ THE SOFTWARE.
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
       $("#Level_1").fadeOut("slow");
   </script>
+  <style>
+      @keyframes flickerAnimation {
+        0%   {   opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:0; }
+      }
+      @-o-keyframes flickerAnimation{
+        0%   { opacity:1; }
+        50%  { opacity:0; }
+        100% { opacity:0; }
+      }
+      @-moz-keyframes flickerAnimation{
+      0%   { opacity:1; }
+      50%  { opacity:0; }
+      100% { opacity:0;
+      }
+      @-webkit-keyframes flickerAnimation{
+      0%   { opacity:1; }
+      50%  { opacity:0; }
+      100% { opacity:0; }
+      }
+      .animate-flicker {
+        -webkit-animation: flickerAnimation 1s infinite;
+        -moz-animation: flickerAnimation 1s infinite;
+        -o-animation: flickerAnimation 1s infinite;
+        animation: flickerAnimation 1s infinite;
+      }
+    }
+  </style>
 </head>
 <body background="http://images1.fanpop.com/images/photos/2500000/Tom-and-Jerry-Wallpaper-tom-and-jerry-2507494-1600-1200.jpg">
 <div id="Level_1">
+  <p id="animate-flicker">Level 1</p>
 </div>
 <br>
 <br>
