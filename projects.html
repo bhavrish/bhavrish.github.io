@@ -6,10 +6,12 @@
     </title>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <style>
+        /* Messing with the styles*/
         body {
             background: rgba(10, 10, 10, 0.8);
             color:white;
             font-family: 'Open Sans', sans-serif;
+            position: relative;
         }
         h1 {
             font-size:64px;
@@ -38,6 +40,16 @@
         nav a {
             text-decoration: none;
         }
+        section {
+            background:rgba(20,20,20,0.8);
+            display: block;
+            float:right;
+            width: 25%; /*set this number based on the number of sections you will have */
+            /*If you don't want the sections side by side then insert some padding.
+            Note that this will affect the width and the width percentage should be adjusted
+            accordingly.*/
+            text-align:center;
+        }
     </style>
 </head>
 <body>
@@ -46,13 +58,21 @@
     <div>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="projects.html">Projects</a></li>
+        <li><a href="projects.html"><b>Projects</b></a></li>
         <li><a href="games.html">Games</a></li>
     </div>    
     </ul>
 </nav>
-<h1>BHAVESH SHAH<br><small>Software engineer at Stuyvesant H.S.</small></h1>
+<h1>BHAVESH SHAH<br><small>Bhavesh's awesome projects</small></h1>
+<section><h2>Catch Jerry!<br><a href="http://bhavrish.github.io/tomJerry.html">Here</a></h2></section>
+<section><h2>Ping Pong! <br><a href="http://bhavrish.github.io/Ping_Pong.html">Here</a></h2></section>
+<section><h2>Catcher!<br><a href="http://bhavrish.github.io/Catcher.html">Here</a></h2></section>
+<section><h2>Number Game!<br><a href="http://bhavrish.github.io/Number_Game.html">Here</a></h2></section>
+<br><br><br><br><br><br><br><br>
     <footer><p>The Bhawesh theme by <a href="https://github.com/Jonw27">Jonathan Wong.</a></p></footer>
 </body>
 </html>
+
+
+
 
