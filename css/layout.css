@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url(../images/header-background2.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -59,10 +59,10 @@ header .banner {
 header .banner-text { width: 100%; }
 header .banner-text h1 {
    font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   color: #fffaf0;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
-   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+   text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
@@ -325,25 +325,30 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
+.java {
+    width: 80%;
+    -moz-animation: swift 2s ease;
+    -webkit-animation: swift 2s ease;
+}
+.python {
+    width: 70%;
+    -moz-animation: python 2s ease;
+    -webkit-animation: python 2s ease;
+}
 .swift {
-  	width: 80%;
+  	width: 60%;
   	-moz-animation: swift 2s ease;
   	-webkit-animation: swift 2s ease;
 }
-.python {
+.javascript {
   	width: 60%;
-  	-moz-animation: python 2s ease;
-  	-webkit-animation: python 2s ease;
+  	-moz-animation: javascript 2s ease;
+  	-webkit-animation: javascript 2s ease;
 }
-.php {
+.sql {
   	width: 50%;
-  	-moz-animation: php 2s ease;
-  	-webkit-animation: php 2s ease;
-}
-.mysql {
-  	width: 50%;
-  	-moz-animation: mysql 2s ease;
-  	-webkit-animation: mysql 2s ease;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
 }
 .html5 {
   	width: 70%;
@@ -351,7 +356,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5 2s ease;
 }
 .css3 {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: css3 2s ease;
   	-webkit-animation: css3 2s ease;
 }
